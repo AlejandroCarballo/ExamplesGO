@@ -1,8 +1,6 @@
 package main
 
-import (
-	"github.com/AlejandroCarballo/ExamplesGO/maps"
-)
+import "github.com/AlejandroCarballo/ExamplesGO/users"
 
 func main() {
 	/*variables.RestoVariables()
@@ -44,6 +42,7 @@ func main() {
 	//funciones.LlamarClosure()
 
 	//funciones.Exponencia(2)
-	maps.MostrarMapas()
+	//maps.MostrarMapas()
+	users.AltaUsuario()
 
 }
