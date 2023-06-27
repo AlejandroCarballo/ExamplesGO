@@ -1,9 +1,6 @@
 package main
 
-import (
-	"fmt"
-	"github.com/AlejandroCarballo/ExamplesGO/ejercicios"
-)
+import "github.com/AlejandroCarballo/ExamplesGO/files"
 
 func main() {
 	/*variables.RestoVariables()
@@ -28,9 +25,19 @@ func main() {
 	default:
 		fmt.Printf("%s \n", os)
 
-	}*/
+	}
 
 	numero, texto := ejercicios.Convertir("500")
 	fmt.Println(numero)
-	fmt.Println(texto)
+	fmt.Println(texto)*/
+
+	//teclado.IngresoNumeros()
+	//iteraciones.Iterar()
+
+	//fmt.Println(ejercicios.Multiplicar())
+	//files.GrabaTable()
+
+	//files.SumaTabla()
+	files.LeoArchivo()
+
 }
