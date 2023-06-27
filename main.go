@@ -1,6 +1,6 @@
 package main
 
-import "github.com/AlejandroCarballo/ExamplesGO/funciones"
+import "github.com/AlejandroCarballo/ExamplesGO/arreglos_slices"
 
 func main() {
 	/*variables.RestoVariables()
@@ -39,6 +39,9 @@ func main() {
 
 	//files.SumaTabla()
 	//files.LeoArchivo()
-	funciones.LlamarClosure()
+	//funciones.LlamarClosure()
+
+	//funciones.Exponencia(2)
+	arreglos_slices.Capacidad()
 
 }
