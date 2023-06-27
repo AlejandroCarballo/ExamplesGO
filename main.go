@@ -1,6 +1,8 @@
 package main
 
-import "github.com/AlejandroCarballo/ExamplesGO/arreglos_slices"
+import (
+	"github.com/AlejandroCarballo/ExamplesGO/maps"
+)
 
 func main() {
 	/*variables.RestoVariables()
@@ -42,6 +44,6 @@ func main() {
 	//funciones.LlamarClosure()
 
 	//funciones.Exponencia(2)
-	arreglos_slices.Capacidad()
+	maps.MostrarMapas()
 
 }
