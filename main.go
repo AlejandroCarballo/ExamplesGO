@@ -1,6 +1,6 @@
 package main
 
-import "github.com/AlejandroCarballo/ExamplesGO/files"
+import "github.com/AlejandroCarballo/ExamplesGO/funciones"
 
 func main() {
 	/*variables.RestoVariables()
@@ -38,6 +38,7 @@ func main() {
 	//files.GrabaTable()
 
 	//files.SumaTabla()
-	files.LeoArchivo()
+	//files.LeoArchivo()
+	funciones.LlamarClosure()
 
 }
