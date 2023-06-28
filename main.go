@@ -1,6 +1,6 @@
 package main
 
-import "github.com/AlejandroCarballo/ExamplesGO/users"
+import "github.com/AlejandroCarballo/ExamplesGO/defer_panic"
 
 func main() {
 	/*variables.RestoVariables()
@@ -43,6 +43,13 @@ func main() {
 
 	//funciones.Exponencia(2)
 	//maps.MostrarMapas()
-	users.AltaUsuario()
+	//users.AltaUsuario()
+	/*Ale := new(modelos.Hombre)
+	ejer_interfaces.HumanosRespirando(Ale)
+
+	Melisa := new(modelos.Mujer)
+	ejer_interfaces.HumanosRespirando(Melisa)*/
+
+	defer_panic.EjemploPanic()
 
 }
