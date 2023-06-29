@@ -1,6 +1,6 @@
 package main
 
-import "github.com/AlejandroCarballo/ExamplesGO/defer_panic"
+import "github.com/AlejandroCarballo/ExamplesGO/middleware"
 
 func main() {
 	/*variables.RestoVariables()
@@ -50,6 +50,17 @@ func main() {
 	Melisa := new(modelos.Mujer)
 	ejer_interfaces.HumanosRespirando(Melisa)*/
 
-	defer_panic.EjemploPanic()
+	//defer_panic.EjemploPanic()
+
+	/*canal1 := make(chan bool)
+	go goroutines.MiNombreLeentooo("Alejandro Carballo", canal1)
+
+	<-canal1
+
+	fmt.Println("Estoy aqui")
+	var x string
+	fmt.Scanln(&x)*/
+	//webserver.MiWebServer()
+	middleware.MiMiddleware()
 
 }
